@@ -1,6 +1,6 @@
 # アルティメット麻雀 - Legal
 
-麻雀アプリ「アルティメット麻雀」のプライバシーポリシー・利用規約を、GitHub Pagesで公開するための専用リポジトリです。App Store、Google Playおよびアプリ内から参照する公開URLを提供します。
+麻雀アプリ「アルティメット麻雀」のプライバシーポリシー・利用規約・特定商取引法に基づく表記を、GitHub Pagesで公開するための専用リポジトリです。App Store、Google Playおよびアプリ内から参照する公開URLを提供します。
 
 静的HTML / CSSのみで構成しています。ビルド、npm、JavaScript、外部フォント、Analyticsは不要です。アプリ本体のコードは含みません。
 
@@ -14,24 +14,24 @@
 
 | ファイル | 内容 |
 | --- | --- |
-| `index.html` | Legal Informationトップ。両文書へのリンク |
+| `index.html` | Legal Informationトップ。3つの法務文書へのリンク |
 | `privacy.html` | プライバシーポリシー |
 | `terms.html` | 利用規約 |
+| `commercial.html` | 特定商取引法に基づく表記 |
 | `styles.css` | 全ページ共通のスタイル |
 | `README.md` | 運用・公開手順（サイトのナビゲーションには表示しません） |
 
-## 未確定情報の確認
+## 確定情報と個人情報の取扱い
 
-2026年11月6日に、正式なアプリ名、価格、RevenueCat、AdMob、Premiumの説明および配信方針を更新しました。公開日・最終更新日は今回の更新日を記載しています。
+2026年11月6日に、運営者表記・問い合わせ先・管轄裁判所を確定し、特定商取引法に基づく表記を追加しました。
 
-以下は、このリポジトリから確定できないため、TBDのまま保持しています。
+- 運営者表記：アルティメット麻雀運営
+- 問い合わせ先：mleaguer.imitation.contact@gmail.com
+- 準拠法：日本法
+- 第一審の専属的合意管轄裁判所：福岡地方裁判所
+- 公開日・最終更新日：2026年11月6日
 
-- `privacy.html` 第1項：運営者名、問い合わせ先
-- `privacy.html` 第9項：問い合わせ先
-- `terms.html` 第2項：運営者名、問い合わせ先
-- `terms.html` 第15項：管轄裁判所
-
-運営者情報などを推測して補完しないでください。人間側で正式情報を決定し、公開HTMLに反映してください。
+販売事業者の氏名・住所・電話番号は常時公開せず、請求時に遅滞なく開示する方式です。開示請求は上記メールアドレスで受け付け、遅滞なく回答できるよう運用してください。個人情報を推測して追加しないでください。
 
 初回リリースは日本向け・iOS先行で、Androidは後日公開予定です。EU向けの配信予定はありません。Google Playの説明はAndroid版の公開後に適用されます。
 
@@ -40,7 +40,7 @@
 ## 更新手順
 
 1. アプリ本体リポジトリで原稿の正本を更新・確定します。
-2. 対応する `privacy.html` / `terms.html` に変更を反映します。段落、見出し、箇条書き、表を適切なHTMLで記述してください。
+2. 対応する `privacy.html` / `terms.html` / `commercial.html` に変更を反映します。段落、見出し、箇条書き、表を適切なHTMLで記述してください。
 3. ブラウザで各HTMLを開き、本文、スマホ幅の表示、各ページへのリンクを確認します。
 4. 外部ポリシーリンクの `target="_blank"` と `rel="noopener noreferrer"` を維持します。内部リンク・CSSの参照は相対パスを使います。
 5. 変更をコミットしてGitHubの `main` ブランチへプッシュします。
@@ -65,5 +65,6 @@
 | トップ | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/` |
 | Privacy Policy URL | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/privacy.html` |
 | Terms URL | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/terms.html` |
+| 特定商取引法に基づく表記 URL | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/commercial.html` |
 
 App Store / Google Playのプライバシーポリシー欄およびアプリ内のPrivacy Policyリンクには `privacy.html` の公開URLを設定します。アプリ内のTermsリンクおよびストアの該当欄には `terms.html` の公開URLを設定します。
