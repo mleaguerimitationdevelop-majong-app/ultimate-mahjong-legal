@@ -1,6 +1,6 @@
-# Ultimate Mahjong - Legal
+# アルティメット麻雀 - Legal
 
-麻雀アプリ「Ultimate Mahjong」のプライバシーポリシー・利用規約を、GitHub Pagesで公開するための専用リポジトリです。App Store、Google Playおよびアプリ内から参照する公開URLを提供します。
+麻雀アプリ「アルティメット麻雀」のプライバシーポリシー・利用規約を、GitHub Pagesで公開するための専用リポジトリです。App Store、Google Playおよびアプリ内から参照する公開URLを提供します。
 
 静的HTML / CSSのみで構成しています。ビルド、npm、JavaScript、外部フォント、Analyticsは不要です。アプリ本体のコードは含みません。
 
@@ -20,16 +20,22 @@
 | `styles.css` | 全ページ共通のスタイル |
 | `README.md` | 運用・公開手順（サイトのナビゲーションには表示しません） |
 
-## 公開前の確認
+## 未確定情報の確認
 
-**公開前にTBDをすべて解消する必要があります。** 現在は提供された原案の表記をそのまま保持しています。
+2026年11月6日に、正式なアプリ名、価格、RevenueCat、AdMob、Premiumの説明および配信方針を更新しました。公開日・最終更新日は今回の更新日を記載しています。
 
-- `privacy.html` 第1項：運営者名、問い合わせ先、公開日、最終更新日
-- `privacy.html` 第9項：問い合わせ先（TBD）への言及
-- `terms.html` 第2項：運営者名、問い合わせ先、公開日、最終更新日
+以下は、このリポジトリから確定できないため、TBDのまま保持しています。
+
+- `privacy.html` 第1項：運営者名、問い合わせ先
+- `privacy.html` 第9項：問い合わせ先
+- `terms.html` 第2項：運営者名、問い合わせ先
 - `terms.html` 第15項：管轄裁判所
 
-運営者情報などを推測して補完しないでください。「原案」の表記や冒頭の注意書き、第三者サービスの導入予定についても、正本の確定内容を確認し、公開HTMLに反映してください。
+運営者情報などを推測して補完しないでください。人間側で正式情報を決定し、公開HTMLに反映してください。
+
+初回リリースは日本向け・iOS先行で、Androidは後日公開予定です。EU向けの配信予定はありません。Google Playの説明はAndroid版の公開後に適用されます。
+
+広告SDKの収集情報、同意取得・追跡許可、購入復元、端末内保存・同期については、既存文書の説明を基にしています。本リポジトリにはアプリ本体がないため、SDK設定や実装との一致は別途確認が必要です。
 
 ## 更新手順
 
@@ -52,9 +58,9 @@
 
 ## 公開URLとアプリ側の設定
 
-現在のGitリモートに対応する、通常のプロジェクト用GitHub Pagesの想定URLは以下のとおりです。公開はまだ行っていません。リポジトリの移転・改名や独自ドメインの設定を行う場合は、Pages設定画面の公開URLを基準にしてください。
+現在のGitリモートに対応する、GitHub Pagesの公開URLは以下のとおりです。リポジトリの移転・改名や独自ドメインの設定を行う場合は、Pages設定画面の公開URLを基準にしてください。
 
-| 用途 | 想定URL |
+| 用途 | 公開URL |
 | --- | --- |
 | トップ | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/` |
 | Privacy Policy URL | `https://mleaguerimitationdevelop-majong-app.github.io/ultimate-mahjong-legal/privacy.html` |
